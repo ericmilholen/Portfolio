@@ -1,0 +1,42 @@
+@import "global";
+@import "style";
+
+/* Header */
+.main-header {
+  background: #0b0c0e;
+  border-bottom: 0.1rem solid black;
+  color: white;
+}
+
+nav {
+  min-height: 10vh;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+
+  h1 a:hover {
+    background-color: $NiceRed;
+    text-decoration: none;
+  }
+
+  ul {
+    display: flex;
+    flex: 1 1 40rem;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+
+    li a {
+      text-decoration: none;
+    }
+  }
+}
+
+#logo {
+  flex: 2 1 40rem;
+  text-decoration: none;
+}
